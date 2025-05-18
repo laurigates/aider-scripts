@@ -23,7 +23,7 @@ generate_document() {
   echo "Generating ${filepath}..."
   
   # Run aider non-interactively
-  echo -e "${prompt}\n/apply" | aider "${filepath}"
+  aider "${filepath}" --message "${prompt}" --yes-always --no-auto-commits
   
   # Add and commit the file
   git add "${filepath}"
