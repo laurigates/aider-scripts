@@ -1,0 +1,7 @@
+- Create these documents in this order
+  - docs/REQUIREMENTS.md that reflects design requirements
+  - docs/DESIGN.md that reflects current design
+  - docs/LIBRARIES.md that lists the choice of libraries that has been considered and which ones have been chosen
+  - docs/TESTING.md that describes the tests used and testing methodology
+  - README.md that describes the project and basic usage
+  - TODO.md to track project progress
